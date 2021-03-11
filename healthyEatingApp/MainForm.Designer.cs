@@ -37,7 +37,7 @@ namespace healthyEatingApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(462, 807);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Здоровое Питание";
             this.ResumeLayout(false);
 
         }
