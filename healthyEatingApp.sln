@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "healthyEatingApp", "healthyEatingApp\healthyEatingApp.csproj", "{32A393F3-D259-4BCB-9384-B89F8DBA84D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32A393F3-D259-4BCB-9384-B89F8DBA84D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A393F3-D259-4BCB-9384-B89F8DBA84D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A393F3-D259-4BCB-9384-B89F8DBA84D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A393F3-D259-4BCB-9384-B89F8DBA84D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BF3184C-5038-4025-94CC-C1FF9D626E58}
+	EndGlobalSection
+EndGlobal
