@@ -117,7 +117,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="mainIcon.ico" />
-    <Content Include="—Pngtree—vector healthy food icon_4155937.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

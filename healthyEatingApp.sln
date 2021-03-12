@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "healthyEatingApp", "healthyEatingApp\healthyEatingApp.csproj", "{32A393F3-D259-4BCB-9384-B89F8DBA84D8}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "healtyEatingInstaller", "healtyEatingInstaller\healtyEatingInstaller.vdproj", "{3F69C397-90F3-4F12-AA33-4E1FF156801D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{32A393F3-D259-4BCB-9384-B89F8DBA84D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32A393F3-D259-4BCB-9384-B89F8DBA84D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32A393F3-D259-4BCB-9384-B89F8DBA84D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F69C397-90F3-4F12-AA33-4E1FF156801D}.Debug|Any CPU.ActiveCfg = Debug
+		{3F69C397-90F3-4F12-AA33-4E1FF156801D}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
