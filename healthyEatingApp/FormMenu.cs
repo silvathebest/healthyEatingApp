@@ -35,5 +35,10 @@ namespace healthyEatingApp
             buttonBeginTest.FlatStyle = FlatStyle.Flat;
             buttonBeginCalc.FlatStyle = FlatStyle.Flat;
         }
+
+        private void FormMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

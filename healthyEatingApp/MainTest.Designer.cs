@@ -29,6 +29,7 @@ namespace healthyEatingApp
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainTest));
             this.richTextBoxQuestion = new System.Windows.Forms.RichTextBox();
             this.buttonFirstAnswer = new System.Windows.Forms.Button();
             this.buttonSecondAnswer = new System.Windows.Forms.Button();
@@ -45,7 +46,7 @@ namespace healthyEatingApp
             this.richTextBoxQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBoxQuestion.ForeColor = System.Drawing.SystemColors.WindowText;
             this.richTextBoxQuestion.Location = new System.Drawing.Point(63, 41);
-            this.richTextBoxQuestion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBoxQuestion.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBoxQuestion.Name = "richTextBoxQuestion";
             this.richTextBoxQuestion.ReadOnly = true;
             this.richTextBoxQuestion.Size = new System.Drawing.Size(452, 162);
@@ -56,7 +57,7 @@ namespace healthyEatingApp
             // 
             this.buttonFirstAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonFirstAnswer.Location = new System.Drawing.Point(136, 247);
-            this.buttonFirstAnswer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonFirstAnswer.Margin = new System.Windows.Forms.Padding(4);
             this.buttonFirstAnswer.Name = "buttonFirstAnswer";
             this.buttonFirstAnswer.Size = new System.Drawing.Size(311, 62);
             this.buttonFirstAnswer.TabIndex = 1;
@@ -68,7 +69,7 @@ namespace healthyEatingApp
             // 
             this.buttonSecondAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonSecondAnswer.Location = new System.Drawing.Point(136, 350);
-            this.buttonSecondAnswer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonSecondAnswer.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSecondAnswer.Name = "buttonSecondAnswer";
             this.buttonSecondAnswer.Size = new System.Drawing.Size(311, 62);
             this.buttonSecondAnswer.TabIndex = 2;
@@ -80,7 +81,7 @@ namespace healthyEatingApp
             // 
             this.buttonThirdAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonThirdAnswer.Location = new System.Drawing.Point(136, 447);
-            this.buttonThirdAnswer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonThirdAnswer.Margin = new System.Windows.Forms.Padding(4);
             this.buttonThirdAnswer.Name = "buttonThirdAnswer";
             this.buttonThirdAnswer.Size = new System.Drawing.Size(311, 62);
             this.buttonThirdAnswer.TabIndex = 3;
@@ -102,7 +103,7 @@ namespace healthyEatingApp
             this.buttonInReturnMenu.Enabled = false;
             this.buttonInReturnMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonInReturnMenu.Location = new System.Drawing.Point(136, 350);
-            this.buttonInReturnMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonInReturnMenu.Margin = new System.Windows.Forms.Padding(4);
             this.buttonInReturnMenu.Name = "buttonInReturnMenu";
             this.buttonInReturnMenu.Size = new System.Drawing.Size(311, 61);
             this.buttonInReturnMenu.TabIndex = 5;
@@ -123,10 +124,12 @@ namespace healthyEatingApp
             this.Controls.Add(this.buttonSecondAnswer);
             this.Controls.Add(this.buttonFirstAnswer);
             this.Controls.Add(this.richTextBoxQuestion);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MainTest";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Здоровое Питание";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainTest_FormClosed);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
