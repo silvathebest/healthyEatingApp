@@ -21,15 +21,6 @@ namespace healthyEatingApp
         public Calc()
         {
             InitializeComponent();
-            comboBoxSex.Items.Add("Мужской");
-            comboBoxSex.Items.Add("Женский");
-            comboBox1.Items.Add("Минимальный");
-            comboBox1.Items.Add("Слабый");
-            comboBox1.Items.Add("Средний");
-            comboBox1.Items.Add("Высокий");
-            comboBox1.Items.Add("Максимальный");
-            toolTip1.SetToolTip(comboBox1, text);
-            toolTip1.SetToolTip(button2, text);
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -65,6 +56,22 @@ namespace healthyEatingApp
             Form f = new FormMenu();
             f.Visible = true;
             this.Close();
+        }
+
+        private void Calc_Load(object sender, EventArgs e)
+        {
+            comboBoxSex.Items.Add("Мужской");
+            comboBoxSex.Items.Add("Женский");
+            comboBox1.Items.Add("Минимальный");
+            comboBox1.Items.Add("Слабый");
+            comboBox1.Items.Add("Средний");
+            comboBox1.Items.Add("Высокий");
+            comboBox1.Items.Add("Максимальный");
+            toolTip1.SetToolTip(comboBox1, text);
+            toolTip1.SetToolTip(buttonInfo, text);
+            buttonCalc.FlatStyle = FlatStyle.Flat;
+            buttonReturnInMenu.FlatStyle = FlatStyle.Flat;
+            buttonInfo.FlatStyle = FlatStyle.Flat;
         }
     }
 }

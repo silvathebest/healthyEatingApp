@@ -41,7 +41,7 @@ namespace healthyEatingApp
             this.textBoxAge = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonCalc = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.labelNormalWeight = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -50,7 +50,7 @@ namespace healthyEatingApp
             this.labelLoseWeight = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.labelBmr = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.buttonInfo = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.buttonReturnInMenu = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -142,15 +142,15 @@ namespace healthyEatingApp
             this.label5.TabIndex = 9;
             this.label5.Text = "Уровень активности";
             // 
-            // button1
+            // buttonCalc
             // 
-            this.button1.Location = new System.Drawing.Point(17, 304);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 34);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Рассчитать";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonCalc.Location = new System.Drawing.Point(17, 304);
+            this.buttonCalc.Name = "buttonCalc";
+            this.buttonCalc.Size = new System.Drawing.Size(133, 34);
+            this.buttonCalc.TabIndex = 10;
+            this.buttonCalc.Text = "Рассчитать";
+            this.buttonCalc.UseVisualStyleBackColor = true;
+            this.buttonCalc.Click += new System.EventHandler(this.button1_Click);
             // 
             // label6
             // 
@@ -166,7 +166,7 @@ namespace healthyEatingApp
             // 
             this.labelNormalWeight.AutoSize = true;
             this.labelNormalWeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelNormalWeight.Location = new System.Drawing.Point(220, 73);
+            this.labelNormalWeight.Location = new System.Drawing.Point(218, 64);
             this.labelNormalWeight.Name = "labelNormalWeight";
             this.labelNormalWeight.Size = new System.Drawing.Size(0, 16);
             this.labelNormalWeight.TabIndex = 12;
@@ -175,7 +175,7 @@ namespace healthyEatingApp
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(189, 118);
+            this.label7.Location = new System.Drawing.Point(189, 98);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(198, 16);
             this.label7.TabIndex = 13;
@@ -185,7 +185,7 @@ namespace healthyEatingApp
             // 
             this.labelUpWeight.AutoSize = true;
             this.labelUpWeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelUpWeight.Location = new System.Drawing.Point(220, 156);
+            this.labelUpWeight.Location = new System.Drawing.Point(218, 127);
             this.labelUpWeight.Name = "labelUpWeight";
             this.labelUpWeight.Size = new System.Drawing.Size(0, 16);
             this.labelUpWeight.TabIndex = 14;
@@ -194,7 +194,7 @@ namespace healthyEatingApp
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(189, 210);
+            this.label9.Location = new System.Drawing.Point(189, 157);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(183, 16);
             this.label9.TabIndex = 15;
@@ -204,7 +204,7 @@ namespace healthyEatingApp
             // 
             this.labelLoseWeight.AutoSize = true;
             this.labelLoseWeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelLoseWeight.Location = new System.Drawing.Point(220, 250);
+            this.labelLoseWeight.Location = new System.Drawing.Point(218, 186);
             this.labelLoseWeight.Name = "labelLoseWeight";
             this.labelLoseWeight.Size = new System.Drawing.Size(0, 16);
             this.labelLoseWeight.TabIndex = 16;
@@ -213,7 +213,7 @@ namespace healthyEatingApp
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(201, 285);
+            this.label10.Location = new System.Drawing.Point(199, 268);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(140, 16);
             this.label10.TabIndex = 17;
@@ -223,20 +223,20 @@ namespace healthyEatingApp
             // 
             this.labelBmr.AutoSize = true;
             this.labelBmr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelBmr.Location = new System.Drawing.Point(220, 313);
+            this.labelBmr.Location = new System.Drawing.Point(218, 296);
             this.labelBmr.Name = "labelBmr";
             this.labelBmr.Size = new System.Drawing.Size(0, 16);
             this.labelBmr.TabIndex = 18;
             // 
-            // button2
+            // buttonInfo
             // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(382, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(37, 30);
-            this.button2.TabIndex = 19;
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonInfo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonInfo.BackgroundImage")));
+            this.buttonInfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonInfo.Location = new System.Drawing.Point(382, 5);
+            this.buttonInfo.Name = "buttonInfo";
+            this.buttonInfo.Size = new System.Drawing.Size(37, 30);
+            this.buttonInfo.TabIndex = 19;
+            this.buttonInfo.UseVisualStyleBackColor = true;
             // 
             // buttonReturnInMenu
             // 
@@ -254,7 +254,7 @@ namespace healthyEatingApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(431, 394);
             this.Controls.Add(this.buttonReturnInMenu);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.buttonInfo);
             this.Controls.Add(this.labelBmr);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.labelLoseWeight);
@@ -263,7 +263,7 @@ namespace healthyEatingApp
             this.Controls.Add(this.label7);
             this.Controls.Add(this.labelNormalWeight);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonCalc);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBoxAge);
@@ -277,6 +277,7 @@ namespace healthyEatingApp
             this.Name = "Calc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Калькулятор каллорий";
+            this.Load += new System.EventHandler(this.Calc_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,7 +295,7 @@ namespace healthyEatingApp
         private System.Windows.Forms.TextBox textBoxAge;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonCalc;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label labelNormalWeight;
         private System.Windows.Forms.Label label7;
@@ -303,7 +304,7 @@ namespace healthyEatingApp
         private System.Windows.Forms.Label labelLoseWeight;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label labelBmr;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonInfo;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button buttonReturnInMenu;
     }

@@ -29,5 +29,11 @@ namespace healthyEatingApp
             f.Show();
             this.Visible = false;
         }
+
+        private void FormMenu_Load(object sender, EventArgs e)
+        {
+            buttonBeginTest.FlatStyle = FlatStyle.Flat;
+            buttonBeginCalc.FlatStyle = FlatStyle.Flat;
+        }
     }
 }

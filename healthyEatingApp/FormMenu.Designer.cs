@@ -35,10 +35,10 @@ namespace healthyEatingApp
             // 
             // buttonBeginTest
             // 
-            this.buttonBeginTest.Location = new System.Drawing.Point(32, 37);
-            this.buttonBeginTest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonBeginTest.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonBeginTest.Location = new System.Drawing.Point(24, 30);
             this.buttonBeginTest.Name = "buttonBeginTest";
-            this.buttonBeginTest.Size = new System.Drawing.Size(327, 63);
+            this.buttonBeginTest.Size = new System.Drawing.Size(245, 51);
             this.buttonBeginTest.TabIndex = 0;
             this.buttonBeginTest.Text = "Пройти тест на здоровое питание";
             this.buttonBeginTest.UseVisualStyleBackColor = true;
@@ -47,10 +47,9 @@ namespace healthyEatingApp
             // buttonBeginCalc
             // 
             this.buttonBeginCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBeginCalc.Location = new System.Drawing.Point(32, 132);
-            this.buttonBeginCalc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonBeginCalc.Location = new System.Drawing.Point(24, 107);
             this.buttonBeginCalc.Name = "buttonBeginCalc";
-            this.buttonBeginCalc.Size = new System.Drawing.Size(327, 63);
+            this.buttonBeginCalc.Size = new System.Drawing.Size(245, 51);
             this.buttonBeginCalc.TabIndex = 1;
             this.buttonBeginCalc.Text = "Перейти к калькулятору калорий";
             this.buttonBeginCalc.UseVisualStyleBackColor = true;
@@ -58,15 +57,15 @@ namespace healthyEatingApp
             // 
             // FormMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 225);
+            this.ClientSize = new System.Drawing.Size(289, 183);
             this.Controls.Add(this.buttonBeginCalc);
             this.Controls.Add(this.buttonBeginTest);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Главное меню";
+            this.Load += new System.EventHandler(this.FormMenu_Load);
             this.ResumeLayout(false);
 
         }

@@ -53,11 +53,6 @@ namespace healthyEatingApp
         public MainTest()
         {
             InitializeComponent();
-            richTextBoxQuestion.SelectionAlignment = HorizontalAlignment.Center;
-            richTextBoxQuestion.TabStop = false;
-            buttonFirstAnswer.FlatStyle = FlatStyle.Flat;
-            buttonSecondAnswer.FlatStyle = FlatStyle.Flat;
-            buttonThirdAnswer.FlatStyle = FlatStyle.Flat;
         }
         public void update_Click(object sender, EventArgs e)
         {
@@ -95,6 +90,12 @@ namespace healthyEatingApp
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
+            richTextBoxQuestion.SelectionAlignment = HorizontalAlignment.Center;
+            richTextBoxQuestion.TabStop = false;
+            buttonFirstAnswer.FlatStyle = FlatStyle.Flat;
+            buttonSecondAnswer.FlatStyle = FlatStyle.Flat;
+            buttonThirdAnswer.FlatStyle = FlatStyle.Flat;
+            buttonInReturnMenu.FlatStyle = FlatStyle.Flat;
             update_Click(sender, e);
         }
         public void result()
