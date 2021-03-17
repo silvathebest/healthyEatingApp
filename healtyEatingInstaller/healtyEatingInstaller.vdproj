@@ -15,7 +15,37 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0289E8175F02435597B589E0A76E5D77"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0AED2DB1D61B4FF79046450C9D5CDF1F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1B2BE806D30A4AB5B344DC6A348DBB86"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1D2E521FADE04E82B316F188221127A4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_23AAE757E5AD457E863A55D118C1F2E9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2C02759941FB47A99428B022C0FF53DF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -33,14 +63,56 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_423B7AC3D08957DBB9800A3436F5824F"
+        "MsmKey" = "8:_48A38D6EA21C4B2891974A5833671041"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7501E0F1DD7D400084CBE62477968EAB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_91A66EACBD26403098A8A3FA47405B95"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9BE1F1666D0A4DF185E842B4D0D8E212"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C4C48FF96B4E4E53B71C6DB673E282EA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_ED710AAEF30844F3A56ECA31693860AD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FF84AB108C814A51A9A238241191CE0F"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_470A41F46E114BF981A42C46B8C61652"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_423B7AC3D08957DBB9800A3436F5824F"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -61,6 +133,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -77,6 +165,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -106,12 +202,112 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0289E8175F02435597B589E0A76E5D77"
+            {
+            "SourcePath" = "8:..\\Resources\\bgImages\\2.jpg"
+            "TargetName" = "8:2.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0AED2DB1D61B4FF79046450C9D5CDF1F"
             {
             "SourcePath" = "8:..\\healthyEatingApp\\mainIcon.ico"
             "TargetName" = "8:mainIcon.ico"
             "Tag" = "8:"
             "Folder" = "8:_4AF5BEB71FD44AFEABDFF1C74323C3D2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1B2BE806D30A4AB5B344DC6A348DBB86"
+            {
+            "SourcePath" = "8:..\\Resources\\bgImages\\6.jpg"
+            "TargetName" = "8:6.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1D2E521FADE04E82B316F188221127A4"
+            {
+            "SourcePath" = "8:..\\Resources\\bgImages\\9.jpg"
+            "TargetName" = "8:9.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_23AAE757E5AD457E863A55D118C1F2E9"
+            {
+            "SourcePath" = "8:..\\Resources\\bgImages\\4.jpg"
+            "TargetName" = "8:4.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2C02759941FB47A99428B022C0FF53DF"
+            {
+            "SourcePath" = "8:..\\Resources\\bgImages\\0.jpg"
+            "TargetName" = "8:0.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -155,6 +351,146 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_48A38D6EA21C4B2891974A5833671041"
+            {
+            "SourcePath" = "8:..\\healthyEatingApp\\bin\\Debug\\Resources\\bgImages\\11.jpg"
+            "TargetName" = "8:11.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7501E0F1DD7D400084CBE62477968EAB"
+            {
+            "SourcePath" = "8:..\\Resources\\bgImages\\1.jpg"
+            "TargetName" = "8:1.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_91A66EACBD26403098A8A3FA47405B95"
+            {
+            "SourcePath" = "8:..\\Resources\\bgImages\\10.jpg"
+            "TargetName" = "8:10.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9BE1F1666D0A4DF185E842B4D0D8E212"
+            {
+            "SourcePath" = "8:..\\Resources\\bgImages\\3.jpg"
+            "TargetName" = "8:3.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C4C48FF96B4E4E53B71C6DB673E282EA"
+            {
+            "SourcePath" = "8:..\\Resources\\bgImages\\8.jpg"
+            "TargetName" = "8:8.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ED710AAEF30844F3A56ECA31693860AD"
+            {
+            "SourcePath" = "8:..\\Resources\\bgImages\\7.jpg"
+            "TargetName" = "8:7.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FF84AB108C814A51A9A238241191CE0F"
+            {
+            "SourcePath" = "8:..\\Resources\\bgImages\\5.jpg"
+            "TargetName" = "8:5.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -206,6 +542,28 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_1D006476E62147BCA79EAD5F5304E788"
+                    {
+                    "Name" = "8:Resources"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_A20D1EB1B87D41E0AD5B184490CDB258"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_2C98D96F9A1C4F7B98A285E9F1E931EB"
+                            {
+                            "Name" = "8:bgImages"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_773CAEFB989843499555064E99D4F075"
+                                "Folders"
+                                {
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -225,7 +583,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Здоровое питание"
         "ProductCode" = "8:{209CBE33-F490-4BBD-8BA8-A3369A8A341E}"
-        "PackageCode" = "8:{4689E908-59E7-4FA3-82E3-866F8343DBA7}"
+        "PackageCode" = "8:{897A9784-163A-40C8-8599-A26B0F5C9B4C}"
         "UpgradeCode" = "8:{1A028E4A-2445-435D-ADE7-2B298EF559AC}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -774,7 +1132,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_470A41F46E114BF981A42C46B8C61652"
             {
-            "SourcePath" = "8:..\\healthyEatingApp\\obj\\Release\\healthyEatingApp.exe"
+            "SourcePath" = "8:..\\healthyEatingApp\\obj\\Debug\\healthyEatingApp.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_4AF5BEB71FD44AFEABDFF1C74323C3D2"

@@ -36,30 +36,33 @@ namespace healthyEatingApp
             this.buttonThirdAnswer = new System.Windows.Forms.Button();
             this.labelQuestionCount = new System.Windows.Forms.Label();
             this.buttonInReturnMenu = new System.Windows.Forms.Button();
+            this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.buttonNextQuestion = new System.Windows.Forms.Button();
+            this.richTextBoxAdvice = new System.Windows.Forms.RichTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // richTextBoxQuestion
             // 
-            this.richTextBoxQuestion.BackColor = System.Drawing.SystemColors.Window;
+            this.richTextBoxQuestion.BackColor = System.Drawing.Color.White;
             this.richTextBoxQuestion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBoxQuestion.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.richTextBoxQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBoxQuestion.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.richTextBoxQuestion.Location = new System.Drawing.Point(63, 41);
-            this.richTextBoxQuestion.Margin = new System.Windows.Forms.Padding(4);
+            this.richTextBoxQuestion.Location = new System.Drawing.Point(252, 514);
             this.richTextBoxQuestion.Name = "richTextBoxQuestion";
             this.richTextBoxQuestion.ReadOnly = true;
-            this.richTextBoxQuestion.Size = new System.Drawing.Size(452, 162);
+            this.richTextBoxQuestion.Size = new System.Drawing.Size(339, 67);
             this.richTextBoxQuestion.TabIndex = 0;
             this.richTextBoxQuestion.Text = "";
             // 
             // buttonFirstAnswer
             // 
+            this.buttonFirstAnswer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonFirstAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonFirstAnswer.Location = new System.Drawing.Point(136, 247);
-            this.buttonFirstAnswer.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonFirstAnswer.Location = new System.Drawing.Point(300, 587);
             this.buttonFirstAnswer.Name = "buttonFirstAnswer";
-            this.buttonFirstAnswer.Size = new System.Drawing.Size(311, 62);
+            this.buttonFirstAnswer.Size = new System.Drawing.Size(262, 50);
             this.buttonFirstAnswer.TabIndex = 1;
             this.buttonFirstAnswer.Text = "button1";
             this.buttonFirstAnswer.UseVisualStyleBackColor = true;
@@ -68,10 +71,9 @@ namespace healthyEatingApp
             // buttonSecondAnswer
             // 
             this.buttonSecondAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSecondAnswer.Location = new System.Drawing.Point(136, 350);
-            this.buttonSecondAnswer.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonSecondAnswer.Location = new System.Drawing.Point(302, 654);
             this.buttonSecondAnswer.Name = "buttonSecondAnswer";
-            this.buttonSecondAnswer.Size = new System.Drawing.Size(311, 62);
+            this.buttonSecondAnswer.Size = new System.Drawing.Size(260, 50);
             this.buttonSecondAnswer.TabIndex = 2;
             this.buttonSecondAnswer.Text = "button2";
             this.buttonSecondAnswer.UseVisualStyleBackColor = true;
@@ -80,10 +82,9 @@ namespace healthyEatingApp
             // buttonThirdAnswer
             // 
             this.buttonThirdAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonThirdAnswer.Location = new System.Drawing.Point(136, 447);
-            this.buttonThirdAnswer.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonThirdAnswer.Location = new System.Drawing.Point(302, 719);
             this.buttonThirdAnswer.Name = "buttonThirdAnswer";
-            this.buttonThirdAnswer.Size = new System.Drawing.Size(311, 62);
+            this.buttonThirdAnswer.Size = new System.Drawing.Size(260, 50);
             this.buttonThirdAnswer.TabIndex = 3;
             this.buttonThirdAnswer.Text = "button3";
             this.buttonThirdAnswer.UseVisualStyleBackColor = true;
@@ -92,32 +93,67 @@ namespace healthyEatingApp
             // labelQuestionCount
             // 
             this.labelQuestionCount.AutoSize = true;
-            this.labelQuestionCount.Location = new System.Drawing.Point(23, 18);
-            this.labelQuestionCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelQuestionCount.Location = new System.Drawing.Point(12, 9);
             this.labelQuestionCount.Name = "labelQuestionCount";
-            this.labelQuestionCount.Size = new System.Drawing.Size(0, 17);
+            this.labelQuestionCount.Size = new System.Drawing.Size(0, 13);
             this.labelQuestionCount.TabIndex = 4;
             // 
             // buttonInReturnMenu
             // 
             this.buttonInReturnMenu.Enabled = false;
             this.buttonInReturnMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonInReturnMenu.Location = new System.Drawing.Point(136, 350);
-            this.buttonInReturnMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonInReturnMenu.Location = new System.Drawing.Point(300, 654);
             this.buttonInReturnMenu.Name = "buttonInReturnMenu";
-            this.buttonInReturnMenu.Size = new System.Drawing.Size(311, 61);
+            this.buttonInReturnMenu.Size = new System.Drawing.Size(262, 50);
             this.buttonInReturnMenu.TabIndex = 5;
             this.buttonInReturnMenu.Text = "Вернуться в  меню";
             this.buttonInReturnMenu.UseVisualStyleBackColor = true;
             this.buttonInReturnMenu.Visible = false;
             this.buttonInReturnMenu.Click += new System.EventHandler(this.buttonInReturnMenu_Click);
             // 
+            // pictureBox
+            // 
+            this.pictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox.Image")));
+            this.pictureBox.Location = new System.Drawing.Point(12, 25);
+            this.pictureBox.Name = "pictureBox";
+            this.pictureBox.Size = new System.Drawing.Size(823, 465);
+            this.pictureBox.TabIndex = 6;
+            this.pictureBox.TabStop = false;
+            // 
+            // buttonNextQuestion
+            // 
+            this.buttonNextQuestion.Location = new System.Drawing.Point(302, 721);
+            this.buttonNextQuestion.Name = "buttonNextQuestion";
+            this.buttonNextQuestion.Size = new System.Drawing.Size(260, 47);
+            this.buttonNextQuestion.TabIndex = 7;
+            this.buttonNextQuestion.Text = "Следующий вопрос";
+            this.buttonNextQuestion.UseVisualStyleBackColor = true;
+            this.buttonNextQuestion.Click += new System.EventHandler(this.buttonNextQuestion_Click);
+            // 
+            // richTextBoxAdvice
+            // 
+            this.richTextBoxAdvice.BackColor = System.Drawing.Color.White;
+            this.richTextBoxAdvice.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBoxAdvice.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.richTextBoxAdvice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.richTextBoxAdvice.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.richTextBoxAdvice.Location = new System.Drawing.Point(56, 514);
+            this.richTextBoxAdvice.Name = "richTextBoxAdvice";
+            this.richTextBoxAdvice.ReadOnly = true;
+            this.richTextBoxAdvice.Size = new System.Drawing.Size(741, 199);
+            this.richTextBoxAdvice.TabIndex = 8;
+            this.richTextBoxAdvice.Text = "";
+            // 
             // MainTest
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(579, 565);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(843, 781);
+            this.Controls.Add(this.richTextBoxAdvice);
+            this.Controls.Add(this.buttonNextQuestion);
+            this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.buttonInReturnMenu);
             this.Controls.Add(this.labelQuestionCount);
             this.Controls.Add(this.buttonThirdAnswer);
@@ -125,12 +161,13 @@ namespace healthyEatingApp
             this.Controls.Add(this.buttonFirstAnswer);
             this.Controls.Add(this.richTextBoxQuestion);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainTest";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Здоровое Питание";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainTest_FormClosed);
             this.Load += new System.EventHandler(this.MainForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,6 +181,9 @@ namespace healthyEatingApp
         private System.Windows.Forms.Button buttonThirdAnswer;
         private System.Windows.Forms.Label labelQuestionCount;
         private System.Windows.Forms.Button buttonInReturnMenu;
+        private System.Windows.Forms.PictureBox pictureBox;
+        private System.Windows.Forms.Button buttonNextQuestion;
+        private System.Windows.Forms.RichTextBox richTextBoxAdvice;
     }
 }
 
