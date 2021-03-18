@@ -32,12 +32,13 @@ namespace healthyEatingApp
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenu));
             this.buttonBeginTest = new System.Windows.Forms.Button();
             this.buttonBeginCalc = new System.Windows.Forms.Button();
+            this.richTextBoxStart = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // buttonBeginTest
             // 
             this.buttonBeginTest.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBeginTest.Location = new System.Drawing.Point(32, 37);
+            this.buttonBeginTest.Location = new System.Drawing.Point(82, 368);
             this.buttonBeginTest.Margin = new System.Windows.Forms.Padding(4);
             this.buttonBeginTest.Name = "buttonBeginTest";
             this.buttonBeginTest.Size = new System.Drawing.Size(327, 63);
@@ -49,7 +50,7 @@ namespace healthyEatingApp
             // buttonBeginCalc
             // 
             this.buttonBeginCalc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBeginCalc.Location = new System.Drawing.Point(32, 132);
+            this.buttonBeginCalc.Location = new System.Drawing.Point(82, 453);
             this.buttonBeginCalc.Margin = new System.Windows.Forms.Padding(4);
             this.buttonBeginCalc.Name = "buttonBeginCalc";
             this.buttonBeginCalc.Size = new System.Drawing.Size(327, 63);
@@ -58,11 +59,23 @@ namespace healthyEatingApp
             this.buttonBeginCalc.UseVisualStyleBackColor = true;
             this.buttonBeginCalc.Click += new System.EventHandler(this.buttonBeginCalc_Click);
             // 
+            // richTextBoxStart
+            // 
+            this.richTextBoxStart.BackColor = System.Drawing.SystemColors.Control;
+            this.richTextBoxStart.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBoxStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.richTextBoxStart.Location = new System.Drawing.Point(1, 12);
+            this.richTextBoxStart.Name = "richTextBoxStart";
+            this.richTextBoxStart.Size = new System.Drawing.Size(518, 349);
+            this.richTextBoxStart.TabIndex = 2;
+            this.richTextBoxStart.Text = "";
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 225);
+            this.ClientSize = new System.Drawing.Size(522, 538);
+            this.Controls.Add(this.richTextBoxStart);
             this.Controls.Add(this.buttonBeginCalc);
             this.Controls.Add(this.buttonBeginTest);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -80,5 +93,6 @@ namespace healthyEatingApp
 
         private System.Windows.Forms.Button buttonBeginTest;
         private System.Windows.Forms.Button buttonBeginCalc;
+        private System.Windows.Forms.RichTextBox richTextBoxStart;
     }
 }
