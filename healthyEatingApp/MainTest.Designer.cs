@@ -49,10 +49,10 @@ namespace healthyEatingApp
             this.richTextBoxQuestion.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.richTextBoxQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBoxQuestion.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.richTextBoxQuestion.Location = new System.Drawing.Point(252, 514);
+            this.richTextBoxQuestion.Location = new System.Drawing.Point(153, 514);
             this.richTextBoxQuestion.Name = "richTextBoxQuestion";
             this.richTextBoxQuestion.ReadOnly = true;
-            this.richTextBoxQuestion.Size = new System.Drawing.Size(339, 67);
+            this.richTextBoxQuestion.Size = new System.Drawing.Size(536, 134);
             this.richTextBoxQuestion.TabIndex = 0;
             this.richTextBoxQuestion.Text = "";
             // 
@@ -138,7 +138,7 @@ namespace healthyEatingApp
             this.richTextBoxAdvice.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.richTextBoxAdvice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBoxAdvice.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.richTextBoxAdvice.Location = new System.Drawing.Point(56, 514);
+            this.richTextBoxAdvice.Location = new System.Drawing.Point(51, 516);
             this.richTextBoxAdvice.Name = "richTextBoxAdvice";
             this.richTextBoxAdvice.ReadOnly = true;
             this.richTextBoxAdvice.Size = new System.Drawing.Size(741, 199);
@@ -152,13 +152,13 @@ namespace healthyEatingApp
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(843, 781);
             this.Controls.Add(this.richTextBoxAdvice);
+            this.Controls.Add(this.buttonFirstAnswer);
             this.Controls.Add(this.buttonNextQuestion);
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.buttonInReturnMenu);
             this.Controls.Add(this.labelQuestionCount);
             this.Controls.Add(this.buttonThirdAnswer);
             this.Controls.Add(this.buttonSecondAnswer);
-            this.Controls.Add(this.buttonFirstAnswer);
             this.Controls.Add(this.richTextBoxQuestion);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
