@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace healthyEatingApp
@@ -34,11 +28,26 @@ namespace healthyEatingApp
         {
             buttonBeginTest.FlatStyle = FlatStyle.Flat;
             buttonBeginCalc.FlatStyle = FlatStyle.Flat;
+            richTextBoxStart.SelectionAlignment = HorizontalAlignment.Center;
+            richTextBoxStart.Text = "Правильное питание предполагает, что в организм регулярно, в необходимом количестве и оптимальных соотношениях должны поступать многие питательные вещества — белки, углеводы, жиры, вода, минеральные вещества и витамины. Недостаток или избыток некоторых питательных элементов становятся причинами сначала временных неудобств, а затем и риска развития различных заболеваний.Здоровое питание даeт возможность стабилизировать вес без насильственных ограничений, помогает избавиться от заболеваний и предотвратить их развитие, содействует восстановлению интеллектуальной и физической энергии.Здоровое питание — важная составляющая здорового образа жизни.Чтобы правильно питаться, нужно не только желание, но и знания.";
+            FormMenu_SizeChanged(sender, e);
         }
 
         private void FormMenu_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void FormMenu_SizeChanged(object sender, EventArgs e)
+        {
+            richTextBoxStart.Width = this.Width - 20;
+            richTextBoxStart.Height = this.Height / 2 + this.Height / 8;
+            buttonBeginCalc.Left = (this.Width / 2) - (buttonBeginCalc.Width / 2);
+            buttonBeginTest.Left = (this.Width / 2) - (buttonBeginCalc.Width / 2);
+            buttonBeginCalc.Top = this.Height - buttonBeginCalc.Height * 2;
+            buttonBeginTest.Top = this.Height - (int)(buttonBeginCalc.Height * 3.3);
+            int fontSize = this.Width / 50;
+            richTextBoxStart.Font = new Font(richTextBoxStart.Font.FontFamily, (float)fontSize);
         }
     }
 }

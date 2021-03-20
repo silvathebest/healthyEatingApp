@@ -1,19 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace healthyEatingApp
 {
     public partial class Calc : Form
     {
-        private double[] cofActivity = new double[] { 1.2, 1.375, 1.55, 1.725, 1.9 };
-        private string text ="Минимальный уровень активности - отсутствие физической нагрузки или небольшая легкая нагрузка \n" +
+        private readonly double[] cofActivity = new double[] { 1.2, 1.375, 1.55, 1.725, 1.9 };
+        private readonly string text = "Минимальный уровень активности - отсутствие физической нагрузки или небольшая легкая нагрузка \n" +
                             "Слабый уровень активности - выполнение легких упражнений не менее 20 минут от 3 до 5 раз в неделю \n" +
                             "Средний уровень активности - Интенсивные упражнения от 30 до 60 минут от 3 до 5 раз в неделю \n" +
                             "Высокий уровень активности - Выполнение интенсивных упражнений не менее 60 минут от 5 до 7 дней в неделю или занятия 2 раза в день \n" +
@@ -22,7 +15,6 @@ namespace healthyEatingApp
         {
             InitializeComponent();
         }
-
 
         private void Calc_Load(object sender, EventArgs e)
         {
@@ -80,7 +72,7 @@ namespace healthyEatingApp
             loseWeight = normalWeight * 0.8;
             upWeight = normalWeight * 1.2;
 
-            if (loseWeight < bmr) loseWeight = bmr;
+            // if (loseWeight < bmr) loseWeight = bmr;
 
             labelLoseWeight.Text = Convert.ToInt32(loseWeight).ToString();
             labelNormalWeight.Text = Convert.ToInt32(normalWeight).ToString();
