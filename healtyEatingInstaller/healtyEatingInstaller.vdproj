@@ -21,12 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0AED2DB1D61B4FF79046450C9D5CDF1F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_1B2BE806D30A4AB5B344DC6A348DBB86"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -88,6 +82,12 @@
         "Entry"
         {
         "MsmKey" = "8:_C4C48FF96B4E4E53B71C6DB673E282EA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C8406F6C6F5B4D2991D461BA1755F134"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -172,6 +172,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -208,26 +216,6 @@
             "TargetName" = "8:2.jpg"
             "Tag" = "8:"
             "Folder" = "8:_2C98D96F9A1C4F7B98A285E9F1E931EB"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0AED2DB1D61B4FF79046450C9D5CDF1F"
-            {
-            "SourcePath" = "8:..\\healthyEatingApp\\mainIcon.ico"
-            "TargetName" = "8:mainIcon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_4AF5BEB71FD44AFEABDFF1C74323C3D2"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -453,6 +441,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C8406F6C6F5B4D2991D461BA1755F134"
+            {
+            "SourcePath" = "8:..\\healthyEatingApp\\Icon.ico"
+            "TargetName" = "8:Icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_4AF5BEB71FD44AFEABDFF1C74323C3D2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ED710AAEF30844F3A56ECA31693860AD"
             {
             "SourcePath" = "8:..\\Resources\\bgImages\\7.jpg"
@@ -583,7 +591,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Здоровое питание"
         "ProductCode" = "8:{209CBE33-F490-4BBD-8BA8-A3369A8A341E}"
-        "PackageCode" = "8:{897A9784-163A-40C8-8599-A26B0F5C9B4C}"
+        "PackageCode" = "8:{C12F7C01-D7F2-4092-B670-27CAF2593F6F}"
         "UpgradeCode" = "8:{1A028E4A-2445-435D-ADE7-2B298EF559AC}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -705,7 +713,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_032803F2EC5846F58EA56C9914B3EEBF"
             {
-            "Name" = "8:Здоровое питание Установка"
+            "Name" = "8:Здоровое питание"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -714,12 +722,12 @@
             "Target" = "8:_470A41F46E114BF981A42C46B8C61652"
             "Folder" = "8:_BB1AA7BA43A741E69B0DE0930A75A0D5"
             "WorkingFolder" = "8:_4AF5BEB71FD44AFEABDFF1C74323C3D2"
-            "Icon" = "8:_0AED2DB1D61B4FF79046450C9D5CDF1F"
+            "Icon" = "8:_C8406F6C6F5B4D2991D461BA1755F134"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_ECAC659A275B421591E8231053861E9D"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F3F10C445B98476AB0EF08B1E06FBE11"
             {
-            "Name" = "8:Здоровое питание Установка"
+            "Name" = "8:Здоровое питание"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -728,7 +736,7 @@
             "Target" = "8:_470A41F46E114BF981A42C46B8C61652"
             "Folder" = "8:_212678D4045545ECB9E6591A54145E07"
             "WorkingFolder" = "8:_4AF5BEB71FD44AFEABDFF1C74323C3D2"
-            "Icon" = "8:_0AED2DB1D61B4FF79046450C9D5CDF1F"
+            "Icon" = "8:_C8406F6C6F5B4D2991D461BA1755F134"
             "Feature" = "8:"
             }
         }

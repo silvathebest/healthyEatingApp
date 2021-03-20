@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace healthyEatingApp
@@ -43,11 +37,11 @@ namespace healthyEatingApp
         {
             Application.Exit();
         }
-        int S = 0;
+
         private void FormMenu_SizeChanged(object sender, EventArgs e)
         {
             richTextBoxStart.Width = this.Width - 20;
-            richTextBoxStart.Height = this.Height / 2 + this.Height/8;
+            richTextBoxStart.Height = this.Height / 2 + this.Height / 8;
             buttonBeginCalc.Left = (this.Width / 2) - (buttonBeginCalc.Width / 2);
             buttonBeginTest.Left = (this.Width / 2) - (buttonBeginCalc.Width / 2);
             buttonBeginCalc.Top = this.Height - buttonBeginCalc.Height * 2;
